@@ -1,0 +1,8 @@
+#profile-image {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+#body {
+    color: gray 
+}
