@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import HeroImage from "../assets/portfolio/profilePic.jpg";
-import { TbArrowRightCircle } from "react-icons/tb";
+import { GoChevronRight } from "react-icons/go";
 
 const Home = () => {
     return (
@@ -26,10 +26,14 @@ const Home = () => {
                         Tailwind, bootstrap and Firebase
                     </p>
                     <div>
-                        <button id="portfolio-btn">
+                        <button
+                            id="portfolio-btn"
+                            className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md
+                             bg-gradient-to-r from-cyan-300 via-cyan-600 to-darkblue-600 cursor-pointer"
+                        >
                             Portfolio{" "}
-                            <span>
-                                <TbArrowRightCircle />
+                            <span className="group-hover:rotate-90 duration-300 pl-2">
+                                <GoChevronRight />
                             </span>
                         </button>
                     </div>
