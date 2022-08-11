@@ -1,5 +1,4 @@
 import React from "react";
-import "./home.css";
 import HeroImage from "../assets/portfolio/profilePic.jpg";
 import { VscChevronRight } from "react-icons/vsc";
 

@@ -40,7 +40,7 @@ const Portfolio = () => {
             className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
         >
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-                <div className="pb-8">
+                <div className="pb-2">
                     <p className="text-4xl font-bold inline border-b-2 border-gray-500">
                         Portfolio
                     </p>
@@ -61,10 +61,10 @@ const Portfolio = () => {
                                 className="rounded-md duration-200 hover:scale-105"
                             />
                             <div className="flex items-center justify-center">
-                                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                                <button className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105">
                                     Demo
                                 </button>
-                                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                                <button className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105">
                                     Code
                                 </button>
                             </div>
