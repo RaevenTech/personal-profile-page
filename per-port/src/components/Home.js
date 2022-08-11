@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import HeroImage from "../assets/portfolio/profilePic.jpg";
-import { GoChevronRight } from "react-icons/go";
+import { VscChevronRight } from "react-icons/vsc";
 
 const Home = () => {
     return (
@@ -14,8 +14,8 @@ const Home = () => {
                 className="max-w-screen-lg mx-auto flex flex-col
                               items-center justify-center h-full px-4 md:flex-row "
             >
-                <div className="flex flex-col justify-center h-content">
-                    <h2 className="text-4xl sm:text-7xl font-bold  text-white">
+                <div className="flex flex-col justify-center h-content ">
+                    <h2 className="text-4xl sm:text-7xl font-bold  text-white mt-20">
                         I am a Front-End Developer
                     </h2>
                     <p id="bio" className="text-gray-500 py-4 max-w-md">
@@ -33,7 +33,7 @@ const Home = () => {
                         >
                             Portfolio{" "}
                             <span className="group-hover:rotate-90 duration-300 pl-2">
-                                <GoChevronRight />
+                                <VscChevronRight size={25} className="" />
                             </span>
                         </button>
                     </div>
@@ -43,7 +43,7 @@ const Home = () => {
                         id="profile-image"
                         src={HeroImage}
                         alt="hero"
-                        className="rounded-2xl mx-auto w-2/3 md:w-full"
+                        className="rounded-2xl mx-auto w-3/5 md:w-4/5"
                     />
                 </div>
             </div>
