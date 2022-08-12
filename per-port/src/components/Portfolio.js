@@ -1,10 +1,10 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
+import arrayDestruct from "../assets/portfolio/projects1.jpg";
+import netflix from "../assets/portfolio/Netflix4.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
+import reactParallax from "../assets/portfolio/porjects2.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import reactWeather from "../assets/portfolio/projects3.jpg";
 
 const Portfolio = () => {
     const projects = [
@@ -14,7 +14,7 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: installNode,
+            src: netflix,
         },
         {
             id: 3,
