@@ -18,7 +18,7 @@ const Home = () => {
                     <h2 className="text-4xl sm:text-5xl font-bold  text-white mt-20">
                         I'm a Front-End Developer
                     </h2>
-                    <p id="bio" className="text-gray-500 py-4 max-w-md">
+                    <p id="bio" className="text-gray-400 py-4 max-w-md">
                         {" "}
                         Add a brief bio of experience and prefrence in techs and
                         my evolution as a developer. Using technologies like
@@ -46,7 +46,7 @@ const Home = () => {
                         id="profile-image"
                         src={HeroImage}
                         alt="hero"
-                        className="rounded-2xl mx-auto w-3/5 md:w-3/5 mt-5"
+                        className="rounded-2xl mx-auto w-4/5 md:w-3/5 mt-5"
                     />
                 </div>
             </div>
