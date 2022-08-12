@@ -14,7 +14,7 @@ const Contact = () => {
                     <p className="py-6">Get in touch with me</p>
                 </div>
                 <div className="flex justify-center items-center">
-                    <form action="" className=" flex flex-col md:w-1/2">
+                    <form action="https://getform.io/f/359ec719-eecc-4d34-9ee9-06069dd2c56f" method="POST" className=" flex flex-col md:w-1/2">
                         <input
                             type="text"
                             name="name"

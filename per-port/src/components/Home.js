@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/portfolio/profilePic.jpg";
 import { VscChevronRight } from "react-icons/vsc";
+import { Link } from "react-scroll";
 
 const Home = () => {
     return (
@@ -25,7 +26,10 @@ const Home = () => {
                         Tailwind, bootstrap and Firebase
                     </p>
                     <div>
-                        <button
+                        <Link
+                            to="portfolio"
+                            smooth
+                            duration={500}
                             id="portfolio-btn"
                             className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md
                              bg-gradient-to-r from-cyan-300 via-cyan-600 to-darkblue-600 cursor-pointer"
@@ -34,7 +38,7 @@ const Home = () => {
                             <span className="group-hover:rotate-90 duration-300 pl-2">
                                 <VscChevronRight size={25} className="" />
                             </span>
-                        </button>
+                        </Link>
                     </div>
                 </div>
                 <div>
