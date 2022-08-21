@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import arrayDestruct from "../assets/portfolio/projects1.jpg";
 import netflix from "../assets/portfolio/Netflix4.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
@@ -61,11 +60,10 @@ const Portfolio = () => {
                                 className="rounded-md duration-200 hover:scale-105"
                             />
                             <div className="flex items-center justify-center">
-                                <Link to="/redirect">
-                                    <button className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105">
-                                        Demo
-                                    </button>
-                                </Link>
+                                <button className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105">
+                                    Demo
+                                </button>
+
                                 <button className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105">
                                     Code
                                 </button>
