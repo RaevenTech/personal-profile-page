@@ -1,4 +1,4 @@
-import React from "react";
+import { useNavigate } from "react-router-dom";
 import arrayDestruct from "../assets/portfolio/projects1.jpg";
 import netflix from "../assets/portfolio/Netflix4.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
@@ -7,6 +7,8 @@ import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/projects3.jpg";
 
 const Portfolio = () => {
+    const navigate = useNavigate();
+
     const projects = [
         {
             id: 1,
@@ -61,7 +63,10 @@ const Portfolio = () => {
                                 className="rounded-md duration-200 hover:scale-105"
                             />
                             <div className="flex items-center justify-center">
-                                <button className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105">
+                                <button
+                                    onClick={() => navigate("./Redirect.js")}
+                                    className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105"
+                                >
                                     Demo
                                 </button>
                                 <button className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105">
