@@ -24,7 +24,7 @@ const About = () => {
 
                 <br />
 
-                <p className="text-xl md:px-16">
+                <p className="text-xl md:px-16 ">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Eius, deserunt illum mollitia officiis qui exercitationem
                     perferendis neque quasi a recusandae necessitatibus tempora

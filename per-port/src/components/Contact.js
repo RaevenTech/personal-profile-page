@@ -6,14 +6,14 @@ const Contact = () => {
             name="contact"
             className="w-full h-full bg-gradient-to-b from-black to-gray-800 p-4 text-white"
         >
-            <div className="flex flex-col px-4 py-32 justify-center max-w-screen-lg mx-auto h-full md:py-48">
+            <div className="flex flex-col px-4 py-32 justify-center max-w-screen-lg mx-auto h-full md:py-32 md:px-16">
                 <div className="pb-8">
                     <p className=" text-4xl front-bold inline border-b-2 border-gray-500">
                         Contact
                     </p>
                     <p className="py-6">Get in touch with me</p>
                 </div>
-                <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center ">
                     <form
                         action="https://getform.io/f/359ec719-eecc-4d34-9ee9-06069dd2c56f"
                         method="POST"
