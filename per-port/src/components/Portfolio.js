@@ -50,12 +50,12 @@ const Portfolio = () => {
                                 className="rounded-md duration-200 hover:scale-105"
                             />
                             <div className="flex items-center justify-center">
-                                <button className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105">
-                                    Demo
+                                <button className="w-1/2  text-orange-600 px-6 py-1 m-4 duration-200 hover:scale-105">
+                                    Demo projects
                                 </button>
 
-                                <button className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105">
-                                    Code
+                                <button className="w-1/2 px-6 text-orange-600  py-1 m-4 duration-200 hover:scale-105">
+                                    coming soon
                                 </button>
                             </div>
                         </div>
