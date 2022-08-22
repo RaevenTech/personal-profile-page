@@ -1,8 +1,5 @@
 import arrayDestruct from "../assets/portfolio/projects1.jpg";
-import netflix from "../assets/portfolio/Netflix4.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/porjects2.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/projects3.jpg";
 
 const Portfolio = () => {
@@ -26,7 +23,7 @@ const Portfolio = () => {
     return (
         <div
             name="portfolio"
-            className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+            className=" bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
         >
             <div
                 id="portfolio"
