@@ -40,7 +40,7 @@ const Socials = () => {
                     Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: "/reper-port/public/resume.pdf", //" drag and drop CV into the public folder in the file tree (/resume.pdf) goes here",
+            href: "/reper-port/public/resume-30-8-22.pdf", //" drag and drop CV into the public folder in the file tree (/resume.pdf) goes here",
             style: "rounded-br-md",
             download: true,
         },
