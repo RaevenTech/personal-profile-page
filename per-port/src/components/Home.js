@@ -15,7 +15,7 @@ const Home = () => {
                               items-center justify-center h-full px-4 md:flex-row "
             >
                 <div className="flex flex-col justify-center h-content md:ml-16 ">
-                    <h2 className="text-4xl sm:text-5xl font-bold  text-blue-500 mt-20">
+                    <h2 className="text-4xl sm:text-5xl font-bold  text-white mt-20">
                         I'm a Front-End Developer
                     </h2>
                     <p id="bio" className="text-gray-400 py-4 max-w-md">
