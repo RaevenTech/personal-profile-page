@@ -7,6 +7,7 @@ import realtimedb from "../assets/firebaseRealtime.png";
 import heroku from "../assets/heroku.webp";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import nextjs from "../assets/nextjs.png";
 
 const Exprience = () => {
     const techs = [
@@ -43,7 +44,7 @@ const Exprience = () => {
         },
         {
             id: 6,
-            title: "Next JS",
+            title: "Firebase",
             src: realtimedb,
             style: "shadow-yellow-300",
         },
@@ -58,6 +59,12 @@ const Exprience = () => {
             title: "GitHub",
             src: github,
             style: "shadow-gray-400",
+        },
+        {
+            id: 9,
+            title: "Next.js",
+            src: nextjs,
+            style: "shadow-gray-100",
         },
     ];
 
@@ -75,7 +82,7 @@ const Exprience = () => {
                         These are the technologies I've worked with
                     </p>
                 </div>
-                <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-6 text-center py-8 px-12 sm:px-0 ">
+                <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-6 text-center py-8 px-12 sm:px-0 ">
                     {techs.map(({ id, src, title, style, size }) => (
                         <div
                             key={id}

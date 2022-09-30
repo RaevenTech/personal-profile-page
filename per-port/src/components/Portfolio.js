@@ -7,16 +7,22 @@ const Portfolio = () => {
         {
             id: 1,
             src: arrayDestruct,
+            title: "Early Projects",
+            desc: "Technologies used: HTML, CSS, JavaScript",
         },
 
         {
             id: 2,
             src: navbar,
+            title: "",
+            desc: "",
         },
 
         {
             id: 3,
             src: reactWeather,
+            title: "",
+            desc: "",
         },
     ];
 
@@ -39,7 +45,7 @@ const Portfolio = () => {
                     className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 pr-4
                      sm:px-0 md:px-16"
                 >
-                    {projects.map(({ id, src }) => (
+                    {projects.map(({ id, src, desc, title }) => (
                         <div
                             key={id}
                             className="shadow-md shadow-gray-600 rounded-lg"
@@ -49,6 +55,11 @@ const Portfolio = () => {
                                 alt=""
                                 className="rounded-md duration-200 hover:scale-105"
                             />
+                            <h3 className="font-bold text-gray-500">{title}</h3>
+                            <p className="text-gray-500">
+                                {" "}
+                                <small>{desc}</small>
+                            </p>
                             <div className="flex items-center justify-center">
                                 <button className="w-1/2  text-orange-600 px-6 py-1 m-4 duration-200 hover:scale-105">
                                     Demo projects
