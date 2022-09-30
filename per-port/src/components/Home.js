@@ -20,10 +20,11 @@ const Home = () => {
                     </h2>
                     <p id="bio" className="text-gray-400 py-4 max-w-md">
                         {" "}
-                        Add a brief bio of experience and prefrence in techs and
-                        my evolution as a developer. Using technologies like
-                        HTML, CSS, JavaScript, React, React Router DOM,
-                        Tailwind, bootstrap and Firebase
+                        I am someone who is always looking to improve myself and
+                        the world around me. Building both engaging, as well as
+                        aesthetically pleasing applications. Using technologies
+                        like HTML, CSS, JavaScript, React, React Router DOM,
+                        Next.js Tailwind, bootstrap, Figma and Firebase
                     </p>
                     <div>
                         <Link
