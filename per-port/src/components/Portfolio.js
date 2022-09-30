@@ -55,10 +55,10 @@ const Portfolio = () => {
                                 alt=""
                                 className="rounded-md duration-200 hover:scale-105"
                             />
-                            <h3 className="font-bold text-gray-500">{title}</h3>
+                            <p className="font-bold text-gray-500"></p>
                             <p className="text-gray-500">
                                 {" "}
-                                <small>{desc}</small>
+                                <small></small>
                             </p>
                             <div className="flex items-center justify-center">
                                 <button className="w-1/2  text-orange-600 px-6 py-1 m-4 duration-200 hover:scale-105">
