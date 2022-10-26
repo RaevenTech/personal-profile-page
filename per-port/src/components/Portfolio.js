@@ -1,24 +1,23 @@
 //import { ExternalLink } from "react-external-link";
-import arrayDestruct from "../assets/portfolio/projects1.jpg";
-//import navbar from "../assets/portfolio/navbar.jpg";
 import reactWeather from "../assets/portfolio/projects3.jpg";
 import javascript from "../assets/javaScript-bg.jpg";
+import deli from "../assets/deli.png";
 
 const Portfolio = () => {
     const projects = [
         {
             id: 1,
-            src: arrayDestruct,
-            description: " Coming soon",
+            src: deli,
+            description: "Deli Online store UI using  only HTML and CSS",
             url: "Coming soon",
-            code: "",
+            code: "https://raeven-deli-ui.vercel.app/",
         },
 
         {
             id: 2,
             src: javascript,
             description:
-                "Collection of small project using JavaScript,HTML and CSS",
+                "Collection of small projects using JavaScript,HTML and CSS",
             url: "https://javascript-simple.vercel.app/",
             code: "https://github.com/RaevenTech/javascript-simple",
         },
@@ -57,7 +56,7 @@ const Portfolio = () => {
                             <img
                                 src={src}
                                 alt=""
-                                className="rounded-md duration-200 hover:scale-105"
+                                className="h-[150px] rounded-md duration-200 hover:scale-105"
                             />
                             <p className=" text-gray-500 text-md mt-3">
                                 {description}
