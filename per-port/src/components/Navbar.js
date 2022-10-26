@@ -31,13 +31,15 @@ function Navbar() {
     return (
         <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
             <div id="nav-big-screen">
-                <h1 className="text-5xl font-signature ml-2">Raeven.</h1>
+                <h1 className="text-[60px] font-signature ml-[50px] pt-5">
+                    Raeven.
+                </h1>
             </div>
             <ul className="hidden md:flex">
                 {links.map(({ id, link }) => (
                     <li
                         key={id}
-                        className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-110 duration-400"
+                        className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-110 duration-400 hover:text-gray-300"
                     >
                         <Link to={link} smooth duration={500}>
                             {link}
