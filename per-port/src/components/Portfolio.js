@@ -1,4 +1,9 @@
+
 //import { ExternalLink } from "react-external-link";
+
+import deli from "../assets/deli.png";
+import javascript from "../assets/javaScript-bg.jpg";
+
 import reactWeather from "../assets/portfolio/projects3.jpg";
 import javascript from "../assets/javaScript-bg.jpg";
 import deli from "../assets/deli.png";
@@ -7,14 +12,25 @@ const Portfolio = () => {
     const projects = [
         {
             id: 1,
+
             src: deli,
             description: "Deli Online store UI using  only HTML and CSS",
             url: "Coming soon",
             code: "https://raeven-deli-ui.vercel.app/",
+
+            title: "UI project",
+            src: deli,
+            description: "Deli Online store UI using  only HTML and CSS",
+            url: "https://raeven-deli-ui.vercel.app/",
+            code: "https://github.com/RaevenTech/deli-ui",
+
         },
 
         {
             id: 2,
+
+            title: "javascript projects",
+
             src: javascript,
             description:
                 "Collection of small projects using JavaScript,HTML and CSS",
@@ -24,6 +40,7 @@ const Portfolio = () => {
 
         {
             id: 3,
+            title: "",
             src: reactWeather,
             description: "Coming soon",
             url: "Coming soon",
@@ -46,6 +63,7 @@ const Portfolio = () => {
                     </p>
                     <p className="py-6">Check out some of my work here</p>
                 </div>
+
                 {/*-- mapping through the projects to be displayed on the screen */}
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 pr-4 sm:px-0 md:px-16">
                     {projects.map(({ id, src, code, url, description }) => (
@@ -69,9 +87,38 @@ const Portfolio = () => {
                                 <button className="w-1/2 px-6 text-orange-600  py-1 m-4 duration-200 hover:scale-105">
                                     <a href={url}> View</a>
                                 </button>
+
+                <div
+                    className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 pr-4
+                        sm:px-0 md:px-16"
+                >
+                    {projects.map(
+                        ({ id, src, code, url, description, title }) => (
+                            <div
+                                key={id}
+                                className="shadow-md shadow-gray-600 rounded-lg"
+                            >
+                                <img
+                                    src={src}
+                                    alt={title}
+                                    className="h-[150px] rounded-md duration-200 hover:scale-105"
+                                />
+                                <p className="text-gray-500 mt-2 pb-0 pl-2">
+                                    {description}
+                                </p>
+                                <div className="flex items-center justify-center">
+                                    <button className="w-1/2  text-orange-600 px-6 py-1 m-4 duration-200 hover:scale-105">
+                                        <a href={code}>Code</a>
+                                    </button>
+
+                                    <button className="w-1/2 px-6 text-orange-600  py-1 m-4 duration-200 hover:scale-105">
+                                        <a href={url}>View</a>
+                                    </button>
+                                </div>
+
                             </div>
-                        </div>
-                    ))}
+                        )
+                    )}
                 </div>
             </div>
         </div>
