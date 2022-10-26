@@ -11,7 +11,7 @@ function App() {
         <div>
             <Navbar />
             <Home />
-            <div className="">
+            <div className=" n#o9i">
                 <About />
                 <Portfolio />
                 <Exprience />
